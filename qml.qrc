@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>component/windowTitleBar/TitleBar.qml</file>
+        <file>component/windowStatusBar/StatusBar.qml</file>
+        <file>component/windowTitleBar/trademark/Trademark.qml</file>
+        <file>component/windowTitleBar/sloganText/SloganText.qml</file>
+        <file>component/windowTitleBar/userInfo/UserInfo.qml</file>
+        <file>component/windowTitleBar/windowButtons/WindowButtons.qml</file>
+        <file>component/windowTitleBar/trademark/image/logo@2x.png</file>
+        <file>component/windowTitleBar/userInfo/image/user_icon@2x.png</file>
+        <file>component/windowTitleBar/windowButtons/image/close@2x.png</file>
+    </qresource>
+</RCC>
