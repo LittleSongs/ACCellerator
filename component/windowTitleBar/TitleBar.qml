@@ -13,10 +13,11 @@ Item {
     id:root
     implicitWidth:parent.width
     implicitHeight: 80
-    Rectangle{
-        anchors.fill: parent
-        color: "#8e7cc3"
+
+    Component.onCompleted: {
+        console.log(root.width)
     }
+
     //背景
     Rectangle {
         anchors.fill: parent

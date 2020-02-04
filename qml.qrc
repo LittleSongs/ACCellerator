@@ -10,5 +10,10 @@
         <file>component/windowTitleBar/trademark/image/logo@2x.png</file>
         <file>component/windowTitleBar/userInfo/image/user_icon@2x.png</file>
         <file>component/windowTitleBar/windowButtons/image/close@2x.png</file>
+        <file>component/windowStatusBar/runningTab/RunningTab.qml</file>
+        <file>component/windowStatusBar/runningTab/image/run@2x.png</file>
+        <file>component/windowStatusBar/runningTab/image/stop@2x.png</file>
+        <file>component/windowStatusBar/infoTab/InfoTab.qml</file>
+        <file>component/windowStatusBar/timeTab/TimeTab.qml</file>
     </qresource>
 </RCC>
