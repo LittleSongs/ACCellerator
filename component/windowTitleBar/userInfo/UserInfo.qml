@@ -7,7 +7,7 @@ Item {
     id:root
     property string _userName: "Admin0106_001"
     property string _fontColor: "#ECECEC"
-    property int _fontSize: 14
+    property int _fontSize: 16
 
     property string _userType: "(超级管理员)"
     Image {
