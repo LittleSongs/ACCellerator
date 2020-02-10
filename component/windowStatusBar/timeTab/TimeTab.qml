@@ -2,55 +2,26 @@
     时间
 */
 import QtQuick 2.0
-
+import "../../singleton"
+import "./timeMethod.js" as TimeMethod
 Item {
     id:root
     implicitHeight: parent.height
     implicitWidth: parent.width*0.25
 
-    //获取时间的字符串
-    function getCurDate()
-    {
-        var d = new Date();
-        var week;
-        switch (d.getDay()){
-        case 1: week="星期一"; break;
-        case 2: week="星期二"; break;
-        case 3: week="星期三"; break;
-        case 4: week="星期四"; break;
-        case 5: week="星期五"; break;
-        case 6: week="星期六"; break;
-        default: week="星期天";
-        }
-        var years = d.getFullYear();
-        var month = add_zero(d.getMonth()+1);
-        var days = add_zero(d.getDate());
-        var hours = add_zero(d.getHours());
-        var minutes = add_zero(d.getMinutes());
-        var seconds=add_zero(d.getSeconds());
-        var ndate = years+"-"+month+"-"+days+" "
-                +hours+":"+minutes+" "+week;
-        return ndate;
-    }
-    //时间字符串加0格式化
-    function add_zero(temp)
-    {
-        if(temp<10) return "0"+temp;
-        else return temp;
-    }
-
     Timer { //获取时间的定时器
         interval: 10000; running: true; repeat: true;
         triggeredOnStart: true;
         onTriggered:{
-            timeText.text = getCurDate().toString()
-            console.log(getCurDate().toString())
+            timeText.text = TimeMethod.getCurDate().toString()
         }
     }
 
     Text {
         id: timeText
         anchors.centerIn: parent
+        font.pointSize: 13
+        font.family: FontObj.reguler
     }
 
 }

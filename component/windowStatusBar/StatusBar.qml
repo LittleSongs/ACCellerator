@@ -35,7 +35,7 @@ Item {
         InfoTab{
             id:infoTab
             anchors.left: runningTab.right
-            _infoText:"20200106 - 1 V1.0"
+            _infoText:"版本号: 20200106 - 1 V1.0"
         }
 
         TimeTab{

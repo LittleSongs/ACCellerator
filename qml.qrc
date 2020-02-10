@@ -15,5 +15,9 @@
         <file>component/windowStatusBar/runningTab/image/stop@2x.png</file>
         <file>component/windowStatusBar/infoTab/InfoTab.qml</file>
         <file>component/windowStatusBar/timeTab/TimeTab.qml</file>
+        <file>component/singleton/FontObj.qml</file>
+        <file>component/singleton/qmldir</file>
+        <file>component/windowStatusBar/timeTab/timeMethod.js</file>
+        <file>component/windowStatusBar/runningTab/runningMethod.js</file>
     </qresource>
 </RCC>

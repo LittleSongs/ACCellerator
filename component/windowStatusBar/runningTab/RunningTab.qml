@@ -2,22 +2,16 @@
 设备运行状态
 */
 import QtQuick 2.0
-
+import "../../singleton"
+import "./runningMethod.js" as Method
 Item {
     id:root
     implicitHeight: parent.height
-    implicitWidth: parent.width*0.14
+    implicitWidth: parent.width*0.20
 
-    property string _statusText: "设备运行状态"
+    property alias _statusText: machineStatus.text
 
-    //获得当前设备运行状态,返回true或false
-    function getRunningStatus(){
-        var running=false
-        //获取设备运行状态
-
-        return running
-    }
-
+    //设备运行指示灯
     Image {
         id: runningStatusImg
 
@@ -25,18 +19,21 @@ Item {
         anchors.leftMargin: 10
         anchors.verticalCenter: parent.verticalCenter
 
-        source:getRunningStatus() ?
-                   "./image/run@2x.png" :"./image/stop@2x.png"
+        source:Method.getRunningStatus() ?
+                   "./image/run@2x.png" :
+                   "./image/stop@2x.png"
     }
-
+    //设备运行文字
     Text {
-        id: name
+        id: machineStatus
 
         anchors.left: runningStatusImg.right
         anchors.leftMargin: 4
         anchors.verticalCenter: parent.verticalCenter
 
-        text:_statusText
+        text:"设备运行状态"
+        font.pointSize: 13
+        font.family: FontObj.reguler
 
     }
 
