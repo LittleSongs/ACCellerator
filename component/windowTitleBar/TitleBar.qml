@@ -57,10 +57,9 @@ Item {
         //用户信息
         UserInfo{
             id:userInfo
-            anchors.left: parent.left
-            anchors.leftMargin: 741
+            anchors.right: parent.right
+            anchors.rightMargin: 300
             anchors.top: parent.top
-            anchors.topMargin: 13
         }
 
         /**********************************************/

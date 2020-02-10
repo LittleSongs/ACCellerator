@@ -1,18 +1,20 @@
 import QtQuick 2.0
+import "../../singleton"
 /*
 标题文字组件
 */
 Item {
     id:root
-    property string _fontColor: "#ffffff"
-    property int _fontSize: 30
-    property string _sloganText: "欢迎使用acCELLerator"
+    property alias _fontColor: text.color
+    property alias _fontSize: text.font.pointSize
+    property alias _sloganText: text.text
     Text {
-        id: name
+        id: text
         anchors.verticalCenter: parent.verticalCenter
 
-        text: _sloganText
-        font.pixelSize: _fontSize
-        color: _fontColor
+        text: "欢迎使用acCELLerator"
+        font.pointSize: 13
+        font.family: FontObj.reguler
+        color: "#000000"
     }
 }

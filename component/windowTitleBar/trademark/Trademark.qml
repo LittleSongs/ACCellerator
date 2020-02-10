@@ -9,9 +9,6 @@ Item {
     id:root
     implicitWidth: 200
     implicitHeight: 79
-    Component.onCompleted: {
-//        console.log("1222111")
-    }
 
     Rectangle{
         anchors.fill: parent

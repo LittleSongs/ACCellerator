@@ -3,15 +3,17 @@
 */
 import QtQuick 2.0
 import "./image"
+import "../../singleton"
+import "./userMethod.js" as Method
 Item {
     id:root
-    property string _userName: "Admin0106_001"
-    property string _fontColor: "#ECECEC"
-    property int _fontSize: 16
+    implicitHeight: 50
 
-    property string _userType: "(超级管理员)"
     Image {
         id:userImg
+
+        anchors.verticalCenter: parent.verticalCenter
+
         source: "./image/user_icon@2x.png"
     }
 
@@ -19,19 +21,23 @@ Item {
         id: username
         anchors.left: userImg.right
         anchors.leftMargin: 10
+        anchors.verticalCenter: parent.verticalCenter
 
-        text: _userName
-        font.pixelSize: _fontSize
-        color: _fontColor
+        text: Method.getUserName()
+        font.pointSize: 13
+        font.family: FontObj.reguler
+        color: "#ECECEC"
     }
 
     Text {
         id: userType
         anchors.left: username.right
         anchors.leftMargin: 10
+        anchors.verticalCenter: parent.verticalCenter
 
-        text: _userType
-        font.pixelSize: _fontSize
+        text: Method.getUserLevel()
+        font.pointSize: 13
+        font.family: FontObj.reguler
         color:"#eec009"
     }
 }

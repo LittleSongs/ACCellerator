@@ -19,5 +19,6 @@
         <file>component/singleton/qmldir</file>
         <file>component/windowStatusBar/timeTab/timeMethod.js</file>
         <file>component/windowStatusBar/runningTab/runningMethod.js</file>
+        <file>component/windowTitleBar/userInfo/userMethod.js</file>
     </qresource>
 </RCC>
