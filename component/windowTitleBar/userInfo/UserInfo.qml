@@ -7,7 +7,7 @@ import "../../singleton"
 import "./userMethod.js" as Method
 Item {
     id:root
-    implicitHeight: 50
+    implicitHeight: 40
 
     Image {
         id:userImg
