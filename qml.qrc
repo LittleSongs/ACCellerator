@@ -20,5 +20,24 @@
         <file>component/windowStatusBar/timeTab/timeMethod.js</file>
         <file>component/windowStatusBar/runningTab/runningMethod.js</file>
         <file>component/windowTitleBar/userInfo/userMethod.js</file>
+        <file>component/windowTabBar/TabBar.qml</file>
+        <file>component/windowTabBar/MenuBar1.qml</file>
+        <file>component/windowTabBar/MenuBarBg.qml</file>
+        <file>component/windowTabBar/MenuItem1.qml</file>
+        <file>component/windowTabBar/image/splite.png</file>
+        <file>component/windowTabBar/image/HistoricalTask.png</file>
+        <file>component/windowTabBar/image/new.png</file>
+        <file>component/windowTabBar/image/Setting.png</file>
+        <file>component/windowTabBar/image/SystemSetting.png</file>
+        <file>component/windowTabBar/MenuItemEmpty.qml</file>
+        <file>component/windowTabBar/TabBarMethod.js</file>
+        <file>component/windowTabBar/image/HistoricalTaskActive.png</file>
+        <file>component/windowTabBar/image/newActive.png</file>
+        <file>component/windowTabBar/image/SettingActive.png</file>
+        <file>component/windowTabBar/image/SystemSettingActive.png</file>
+        <file>component/singleton/TabBarSelect.qml</file>
+        <file>component/windowTabBar/image/calibration.png</file>
+        <file>component/windowTabBar/image/SettingSmall.png</file>
+        <file>component/singleton/JS/pageManager.js</file>
     </qresource>
 </RCC>
