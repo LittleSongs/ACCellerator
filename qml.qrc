@@ -2,7 +2,7 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>component/windowTitleBar/TitleBar.qml</file>
-        <file>component/windowStatusBar/StatusBar.qml</file>
+        <file>component/windowStatusBar/StatBar.qml</file>
         <file>component/windowTitleBar/trademark/Trademark.qml</file>
         <file>component/windowTitleBar/sloganText/SloganText.qml</file>
         <file>component/windowTitleBar/userInfo/UserInfo.qml</file>
@@ -21,9 +21,9 @@
         <file>component/windowStatusBar/runningTab/runningMethod.js</file>
         <file>component/windowTitleBar/userInfo/userMethod.js</file>
         <file>component/windowTabBar/TabBar.qml</file>
-        <file>component/windowTabBar/MenuBar1.qml</file>
+        <file>component/windowTabBar/MyMenuBar.qml</file>
         <file>component/windowTabBar/MenuBarBg.qml</file>
-        <file>component/windowTabBar/MenuItem1.qml</file>
+        <file>component/windowTabBar/MyMenuItem.qml</file>
         <file>component/windowTabBar/image/splite.png</file>
         <file>component/windowTabBar/image/HistoricalTask.png</file>
         <file>component/windowTabBar/image/new.png</file>
@@ -39,5 +39,12 @@
         <file>component/windowTabBar/image/calibration.png</file>
         <file>component/windowTabBar/image/SettingSmall.png</file>
         <file>component/singleton/JS/pageManager.js</file>
+        <file>component/singleton/ViewLoader.qml</file>
+        <file>component/windowStackView/StackViewLoader.qml</file>
+        <file>component/windowStackView/Views/Task/CreationTask.qml</file>
+        <file>component/windowStackView/Views/History/HistoryTask.qml</file>
+        <file>component/windowStackView/Views/ParameterSetting/ParameterSetting.qml</file>
+        <file>component/windowStackView/Views/ParameterSetting/Calibration.qml</file>
+        <file>component/windowStackView/Views/SystemSetting/SystemSetting.qml</file>
     </qresource>
 </RCC>

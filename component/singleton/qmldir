@@ -1,2 +1,3 @@
 singleton FontObj 1.0 FontObj.qml
 singleton TabBarSelect 1.0 TabBarSelect.qml
+singleton ViewLoader 1.0 ViewLoader.qml

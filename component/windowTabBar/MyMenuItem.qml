@@ -12,8 +12,7 @@ MenuItem {
                   })
 
     onTriggered: {
-        console.log("menuItem.text="+menuItem.text)
-//        TabBarSelect.selectItem = menuItem.text
+        TabBarSelect.selectItem = menuItem.text
     }
     Image {
         id:icon

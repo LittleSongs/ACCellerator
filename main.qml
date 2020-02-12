@@ -6,6 +6,7 @@ import "./component/windowStatusBar"
 import "./component/windowTabBar"
 import "./component/singleton"
 import "./component/windowTabBar"
+import "./component/windowStackView"
 
 import "./component/singleton/JS/pageManager.js" as Method
 Window {
@@ -15,15 +16,6 @@ Window {
     //    flags:Qt.Popup
     //    flags:Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint
 
-
-    Button{
-        width: 50
-        height: width
-        z:10000
-        onClicked: {
-            Method.set()
-        }
-    }
 
     /**********************************************/
     //标题栏
@@ -35,17 +27,28 @@ Window {
     /**********************************************/
     //标签栏
     TabBar{
+        id:_tabBar
         anchors.top:titleBar.bottom
     }
 
     /**********************************************/
-    //状态栏
-    StatusBar{
-        id:statusBar
-        anchors.bottom: parent.bottom
+    //主界面
+    StackViewLoader {
+        anchors.top: _tabBar.bottom
+        anchors.topMargin: 4
+        anchors.left: parent.left
+        anchors.leftMargin: 4
+        anchors.right: parent.right
+        anchors.rightMargin: 4
+        anchors.bottom: _statBar.top
+        anchors.bottomMargin: 4
     }
 
 
-
-
+    /**********************************************/
+    //状态栏
+    StatBar{
+        id:_statBar
+        anchors.bottom: parent.bottom
+    }
 }

@@ -1,7 +1,7 @@
 import QtQuick 2.5
 
 Rectangle {
-    implicitWidth: 150
+    implicitWidth: 160
     implicitHeight: 50
     color: "#EEEEEE" //底色灰色
 
