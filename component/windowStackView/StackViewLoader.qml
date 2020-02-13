@@ -9,16 +9,13 @@ import "../singleton/JS/pageManager.js" as PageManagerMethod
 
 Item {
     property alias stack: stack //StackView引用
-
-
     Connections{
         target: TabBarSelect
         onSelectTabChanged:{
             console.log("tab changed: "+tabName)
             //处理stackview的栈
-            PageManagerMethod.load_page(stack,tabName,components)
+            PageManagerMethod.controlStack(stack,tabName,components)
             console.log("stack.depth="+stack.depth)
-
         }
     }
     //界面代码
@@ -68,12 +65,19 @@ Item {
         SystemSetting{}
     }
 
+    //新建任务-参数界面
+    Component{
+        id:task
+        Task {}
+    }
+
     //界面列表
     property var components: {
         "新建任务":creationTask,
         "历史任务":historyTask,
         "参数设定":parameterSetting,
         "校准":calibration,
-        "系统设置":systemSetting
+        "系统设置":systemSetting,
+        "新建任务-参数界面":task
     }
 }
