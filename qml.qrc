@@ -47,5 +47,8 @@
         <file>component/windowStackView/Views/ParameterSetting/Calibration.qml</file>
         <file>component/windowStackView/Views/SystemSetting/SystemSetting.qml</file>
         <file>component/windowStackView/Views/Task/Task.qml</file>
+        <file>component/windowStackView/Views/public/ViewsTitleBar.qml</file>
+        <file>component/windowStackView/Views/public/image/backIcon.png</file>
+        <file>component/windowStackView/Views/public/ViewsInput.qml</file>
     </qresource>
 </RCC>

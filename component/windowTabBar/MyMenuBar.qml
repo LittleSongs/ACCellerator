@@ -14,7 +14,7 @@ MenuBarItem {
 
     onTriggered: {
         TabBarSelect.selectItem = menuBarItem.text
-        TabBarSelect.selectItemFather = menuBarItem.text
+        TabBarSelect.selectItemFather = menuBarItem.text//眼睛看到的四个主界面
     }
 
     Image {

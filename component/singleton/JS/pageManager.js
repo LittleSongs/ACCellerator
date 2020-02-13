@@ -1,28 +1,10 @@
 .pragma library
 /*
 主窗口界面控制器
+界面push进stack时，保证每个按钮确定一个唯一的界面
+界面pop出stack时，保证主菜单中最后一个子菜单保留，只pop出主菜单组件
+不pop选择的主菜单的子界面
 */
-//var a =1,b;
-//var obj = {
-
-//}
-//Object.defineProperty(obj,'a',{
-//                          get:function() {
-//                              console.log("get")
-//                              return a
-//                          },
-//                          set: function(value) {
-//                              console.log("set")
-//                              a = value;
-//                              b = a + 1;
-//                          }
-//                      })
-//obj.a = 1;
-//console.log("a:"+a)//1
-//console.log("b:"+b)//2
-//obj.a = 2;
-//console.log("a:"+a)//2
-//console.log("b:"+b)//3
 
 //控制stackview
 function controlStack(stack,name,components){
@@ -38,18 +20,26 @@ function controlStack(stack,name,components){
 
 //控制stackview中的组件load_page
 function push_page(stack,name,components) {
-    switch (name) {
-    case "新建任务":
-    case "历史任务":
-    case "系统设置":
-    case "参数设定":
-    case "校准":
-    case "新建任务-参数界面":
-        stack.push(components[name])
-        break
-    default:
-        break
-    }
+    Object.keys(components).forEach(function(key){
+         console.log(key,components[key]);
+        console.log("333333")
+        if(key === name){
+            console.log("key === name")
+            stack.push(components[name])
+        }
+    });
+//    switch (name) {
+//    case "新建任务":
+//    case "历史任务":
+//    case "系统设置":
+//    case "参数设置 -- 参数设定":
+//    case "参数设置 -- 校准":
+//    case "新建任务 -- 参数界面":
+//        stack.push(components[name])
+//        break
+//    default:
+//        break
+//    }
 }
 
 //控制stackview中的组件load_page

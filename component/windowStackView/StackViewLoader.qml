@@ -65,7 +65,7 @@ Item {
         SystemSetting{}
     }
 
-    //新建任务-参数界面
+    //新建任务 -- 参数界面
     Component{
         id:task
         Task {}
@@ -78,6 +78,6 @@ Item {
         "参数设定":parameterSetting,
         "校准":calibration,
         "系统设置":systemSetting,
-        "新建任务-参数界面":task
+        "新建任务 -- 参数界面":task
     }
 }
