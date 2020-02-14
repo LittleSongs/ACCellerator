@@ -50,5 +50,11 @@
         <file>component/windowStackView/Views/public/ViewsTitleBar.qml</file>
         <file>component/windowStackView/Views/public/image/backIcon.png</file>
         <file>component/windowStackView/Views/public/ViewsInput.qml</file>
+        <file>component/windowStackView/Views/public/ViewsComboBox.qml</file>
+        <file>component/windowStackView/Views/public/image/dropDown.svg</file>
+        <file>component/windowStackView/Views/public/BasicComboBox.qml</file>
+        <file>component/windowStackView/Views/public/CustonButton.qml</file>
+        <file>component/windowStackView/Views/Task/JS/TaskMethod.js</file>
+        <file>component/singleton/UserInfo.qml</file>
     </qresource>
 </RCC>

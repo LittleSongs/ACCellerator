@@ -45,6 +45,10 @@ Item {
                 anchors.fill: parent
                 onClicked: {
                     stack.pop()
+                    //在pop出子页面之后，
+                    //还要把TabBarSelect.selectItem改为父界面的pageId
+                    //其实就是pop之后的栈顶item的pageId
+                    TabBarSelect.selectItem = stack.currentItem.pageId
                     console.log("stack.depth="+stack.depth)
                 }
             }
