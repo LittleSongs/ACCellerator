@@ -94,6 +94,9 @@ Item {
             onClickSignal:{
                 Method.getInfo(taskName,bagId,parameterSelect,
                                personName,personJurisdiction)
+                //保存任务信息到单例
+                Method.saveTask(NowTaskInfo,taskName,bagId,parameterSelect,
+                                personName,personJurisdiction)
                 //跳转到任务详情界面
                 TabBarSelect.selectItem = "新建任务 -- 参数界面"
             }

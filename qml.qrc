@@ -56,5 +56,23 @@
         <file>component/windowStackView/Views/public/CustonButton.qml</file>
         <file>component/windowStackView/Views/Task/JS/TaskMethod.js</file>
         <file>component/singleton/UserInfo.qml</file>
+        <file>component/windowStackView/Views/Task/components/ToolButton.qml</file>
+        <file>fonts/NotoSansCJKsc-Regular.otf</file>
+        <file>fonts/NotoSansMonoCJKsc-Regular.otf</file>
+        <file>component/windowStackView/Views/Task/components/images/ecport.png</file>
+        <file>component/windowStackView/Views/Task/components/images/edit.png</file>
+        <file>component/windowStackView/Views/Task/components/images/taskManager.png</file>
+        <file>component/windowStackView/Views/Task/components/images/begin.png</file>
+        <file>component/windowStackView/Views/Task/components/images/pause.png</file>
+        <file>component/windowStackView/Views/Task/components/images/stop.png</file>
+        <file>component/windowStackView/Views/Task/components/images/stop1.png</file>
+        <file>component/windowStackView/Views/Task/components/images/begin1.png</file>
+        <file>component/windowStackView/Views/Task/TaskMainWindow.qml</file>
+        <file>component/windowStackView/Views/Task/components/MainWindowTab.qml</file>
+        <file>component/singleton/NowTaskInfo.qml</file>
+        <file>component/windowStackView/Views/Task/TrendTable.qml</file>
+        <file>component/windowStackView/Views/Task/components/IOS-RadioButton/MenuRadioButton.qml</file>
+        <file>component/windowStackView/Views/Task/components/IOS-RadioButton/RadioButton.qml</file>
+        <file>component/windowStackView/Views/Task/components/IOS-RadioButton/RadioButtonStyle.qml</file>
     </qresource>
 </RCC>

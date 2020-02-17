@@ -7,6 +7,7 @@ import QtQuick.Controls 1.4
 import QtQuick.Controls.Styles 1.4
 import "../../../singleton"
 Item {
+    id:root
     property string _text:""
     property string _color: "#009CD0"
 
@@ -16,8 +17,8 @@ Item {
         implicitWidth: 120
         style:ButtonStyle{
             background: Rectangle{
-                implicitHeight: 36
-                implicitWidth: 120
+                width: parent.width
+                height: parent.height
                 color: control.pressed
                        ? Qt.darker(_color,1.5) : _color
                 border.color: "#BBBBBB"
@@ -39,27 +40,4 @@ Item {
         }
 
     }
-
-    //    Component{
-    //        id:btnStyle
-    //        ButtonStyle{
-    //            property alias text: btnText.text
-    //            background: Rectangle{
-    //                implicitHeight: 36
-    //                implicitWidth: 120
-    //                color: "#009CD0"
-    //            }
-    //            label: Text{
-    //                id:btnText
-    //                text: ""
-    //                font.family: FontObj.reguler
-    //                font.pointSize: 18
-    //                color: "#ffffff"
-    //                anchors.centerIn: parent
-    //            }
-    //        }
-
-    //    }
-
-
 }
