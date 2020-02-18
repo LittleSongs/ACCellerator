@@ -26,7 +26,7 @@ Item {
     property int rpm: 0 //转速
     property int angle: 0 //角度
     property int oxygenConcentration: 0 //氧气浓度
-    property int cO2Concentration: 0 //二氧化碳浓度
+    property int co2Concentration: 0 //二氧化碳浓度
     property int flowRate_ALL: 0 //总流速
     property int liquidTemperature: 0 //液体温度
     property int initCultureVolume: 0 //起始培养体积
@@ -38,6 +38,4 @@ Item {
     property int activityRate: 0 //活率
     property int _ph: 0 //PH
     property int _do: 0 //DO
-
-
 }

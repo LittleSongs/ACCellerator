@@ -11,6 +11,23 @@ Item {
     property int selectTab: 0
     onSelectTabChanged: {
         console.log("selectTab 改变="+selectTab)
+        switch(selectTab){
+        case 0:
+            tabLoader.source = "./SummaryTable.qml"
+            break
+        case 1:
+            tabLoader.source = "./TrendTable.qml"
+            break
+//        case 2:
+//            tabLoader.source = "./SummaryTable.qml"
+//            break
+//        case 3:
+//            tabLoader.source = "./SummaryTable.qml"
+//            break
+         default:
+             console.log("目前没有这个选项")
+             break
+        }
     }
 
     Text {
@@ -47,7 +64,7 @@ Item {
     //点击汇总，趋势，报警，级联等按钮时，这个Loader就会改变
     Loader{
         id:tabLoader
-        source: "./TrendTable.qml"
+        source: "./SummaryTable.qml"
 
         anchors.top: parent.top
         anchors.topMargin: 45
@@ -71,7 +88,7 @@ Item {
         anchors.bottom: parent.bottom
         anchors.bottomMargin: 6
         anchors.left: parent.left
-        anchors.leftMargin: 8
+        anchors.leftMargin: 10
         onClickBtn: {
             selectTab = _id
         }

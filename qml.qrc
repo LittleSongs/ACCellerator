@@ -70,9 +70,14 @@
         <file>component/windowStackView/Views/Task/TaskMainWindow.qml</file>
         <file>component/windowStackView/Views/Task/components/MainWindowTab.qml</file>
         <file>component/singleton/NowTaskInfo.qml</file>
-        <file>component/windowStackView/Views/Task/TrendTable.qml</file>
+        <file>component/windowStackView/Views/Task/SummaryTable.qml</file>
         <file>component/windowStackView/Views/Task/components/IOS-RadioButton/MenuRadioButton.qml</file>
         <file>component/windowStackView/Views/Task/components/IOS-RadioButton/RadioButton.qml</file>
         <file>component/windowStackView/Views/Task/components/IOS-RadioButton/RadioButtonStyle.qml</file>
+        <file>component/singleton/NowParameterInfo.qml</file>
+        <file>component/windowStackView/Views/Task/JS/TrendTableMethod.js</file>
+        <file>component/windowStackView/Views/Task/TrendTable.qml</file>
+        <file>component/windowStackView/Views/Task/components/CustonTabButton.qml</file>
+        <file>component/windowStackView/Views/Task/components/SwipeItem.qml</file>
     </qresource>
 </RCC>
