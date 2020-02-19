@@ -79,5 +79,6 @@
         <file>component/windowStackView/Views/Task/TrendTable.qml</file>
         <file>component/windowStackView/Views/Task/components/CustonTabButton.qml</file>
         <file>component/windowStackView/Views/Task/components/SwipeItem.qml</file>
+        <file>component/windowStackView/Views/Task/components/CusChartView.qml</file>
     </qresource>
 </RCC>

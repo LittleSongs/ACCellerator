@@ -1,11 +1,12 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QFontDatabase>//设置字体
+#include <QApplication>//注意头文件,折线图
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
-    QGuiApplication app(argc, argv);
+    QApplication app(argc,argv);//这是第二个修改的地方，折线图
+//    QGuiApplication app(argc, argv);
 
     //设置系统默认字体
     int fontId =
