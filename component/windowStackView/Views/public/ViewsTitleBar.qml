@@ -24,7 +24,6 @@ Item {
             text: ""
             color: "#7D7D7D"
             font.pointSize: 13
-            font.family:FontObj.reguler
             anchors.verticalCenter: parent.verticalCenter
             anchors.left: parent.left
             anchors.leftMargin: 15
@@ -37,7 +36,6 @@ Item {
             text: qsTr("返回")
             color: "#7D7D7D"
             font.pointSize: 13
-            font.family:FontObj.reguler
             anchors.verticalCenter: parent.verticalCenter
             anchors.right: parent.right
             anchors.rightMargin: 35

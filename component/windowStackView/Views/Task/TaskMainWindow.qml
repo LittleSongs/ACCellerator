@@ -18,9 +18,9 @@ Item {
         case 1:
             tabLoader.source = "./TrendTable.qml"
             break
-//        case 2:
-//            tabLoader.source = "./SummaryTable.qml"
-//            break
+        case 2:
+            tabLoader.source = "./AlarmTable.qml"
+            break
 //        case 3:
 //            tabLoader.source = "./SummaryTable.qml"
 //            break

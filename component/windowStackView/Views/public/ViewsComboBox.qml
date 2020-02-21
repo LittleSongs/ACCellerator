@@ -18,7 +18,7 @@ Item {
         text: qsTr("")
         color: "#7D7D7D"
         font.pointSize: 14
-        font.family: FontObj.reguler
+        
     }
 
     BasicComboBox{

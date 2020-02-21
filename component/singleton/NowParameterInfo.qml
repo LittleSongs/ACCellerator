@@ -14,7 +14,7 @@ Item {
             {
                 "type": "rpm",
                 "name":"转速",
-                "mode": false,
+                "mode": true,
                 "cascade": false,
                 "currentSetValue": null,
                 "currentValue": null,

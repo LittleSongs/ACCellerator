@@ -8,7 +8,6 @@ MenuBarItem {
     width: 140
 
     font: Qt.font({
-                      family:FontObj.reguler,
                       pointSize: 13,
                   })
 

@@ -33,7 +33,7 @@ Item {
 
         text:"设备运行状态"
         font.pointSize: 13
-        font.family: FontObj.reguler
+        
 
     }
 

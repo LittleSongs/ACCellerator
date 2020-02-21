@@ -8,7 +8,6 @@ import "../../../singleton"
 import "./JS/TrendTableMethod.js" as Method
 Item {
     id:root
-
     Component.onCompleted: {
         //加载表格数据
         Method.setTable(tableView,parameterModel,NowParameterInfo.parameterInfo.obj)

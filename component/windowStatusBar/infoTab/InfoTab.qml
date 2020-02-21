@@ -20,7 +20,7 @@ Item {
 
         text:"版本号: "
         font.pointSize: 13
-        font.family: FontObj.reguler
+        
     }
 
     Rectangle{//右边框线

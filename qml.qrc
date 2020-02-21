@@ -80,5 +80,7 @@
         <file>component/windowStackView/Views/Task/components/CustonTabButton.qml</file>
         <file>component/windowStackView/Views/Task/components/SwipeItem.qml</file>
         <file>component/windowStackView/Views/Task/components/CusChartView.qml</file>
+        <file>component/windowStackView/Views/Task/AlarmTable.qml</file>
+        <file>component/windowStackView/Views/Task/JS/AlarmTableMethod.js</file>
     </qresource>
 </RCC>

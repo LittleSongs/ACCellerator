@@ -25,7 +25,7 @@ Item {
 
         text: Method.getUserName()
         font.pointSize: 13
-        font.family: FontObj.reguler
+        
         color: "#ECECEC"
     }
 
@@ -37,7 +37,7 @@ Item {
 
         text: Method.getUserLevel()
         font.pointSize: 13
-        font.family: FontObj.reguler
+        
         color:"#eec009"
     }
 }

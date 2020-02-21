@@ -7,7 +7,6 @@ MenuItem {
     implicitWidth: 30
     implicitHeight: 40
     font: Qt.font({
-                      family:FontObj.reguler,
                       pointSize: 13,
                   })
 

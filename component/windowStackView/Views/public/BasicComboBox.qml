@@ -39,7 +39,6 @@ T.ComboBox {
     leftPadding: padding
     rightPadding: padding + indicator.width + spacing
     font{
-        family: FontObj.reguler
         pixelSize: 16
     }
 

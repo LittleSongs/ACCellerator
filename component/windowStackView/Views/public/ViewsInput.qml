@@ -16,7 +16,7 @@ Item {
         text: qsTr("")
         color: "#7D7D7D"
         font.pointSize: 14
-        font.family: FontObj.reguler
+        
     }
 
     TextField {
@@ -24,7 +24,6 @@ Item {
         style: TextFieldStyle {
             textColor: "#7D7D7D"
             font.pointSize:13
-            font.family:FontObj.reguler
             background: Rectangle {
                 radius: 2
                 implicitWidth: 280

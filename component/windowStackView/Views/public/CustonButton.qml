@@ -26,7 +26,7 @@ Item {
             }
             label: Text{
                 text: _text
-                font.family: FontObj.reguler
+
                 font.pointSize: 15
                 color: "#ffffff"
                 verticalAlignment: Text.AlignVCenter

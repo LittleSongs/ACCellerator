@@ -14,7 +14,7 @@ Item {
 
         text: "欢迎使用acCELLerator"
         font.pointSize: 13
-        font.family: FontObj.reguler
+        
         color: "#000000"
     }
 }

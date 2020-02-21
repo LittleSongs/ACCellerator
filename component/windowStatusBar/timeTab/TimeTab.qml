@@ -21,7 +21,7 @@ Item {
         id: timeText
         anchors.centerIn: parent
         font.pointSize: 13
-        font.family: FontObj.reguler
+        
     }
 
 }
