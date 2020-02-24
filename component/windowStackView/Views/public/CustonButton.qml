@@ -27,7 +27,7 @@ Item {
             label: Text{
                 text: _text
 
-                font.pointSize: 15
+                font.pixelSize: 15
                 color: "#ffffff"
                 verticalAlignment: Text.AlignVCenter
                 horizontalAlignment: Text.AlignHCenter

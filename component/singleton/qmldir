@@ -4,3 +4,4 @@ singleton ViewLoader 1.0 ViewLoader.qml
 singleton UserInfo 1.0 UserInfo.qml
 singleton NowTaskInfo 1.0 NowTaskInfo.qml
 singleton NowParameterInfo 1.0 NowParameterInfo.qml
+singleton HistoryTaskInfo 1.0 HistoryTaskInfo.qml

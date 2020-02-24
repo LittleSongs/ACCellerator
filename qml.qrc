@@ -82,5 +82,9 @@
         <file>component/windowStackView/Views/Task/components/CusChartView.qml</file>
         <file>component/windowStackView/Views/Task/AlarmTable.qml</file>
         <file>component/windowStackView/Views/Task/JS/AlarmTableMethod.js</file>
+        <file>component/windowStackView/Views/History/JS/HistoryMethod.js</file>
+        <file>component/singleton/HistoryTaskInfo.qml</file>
+        <file>component/windowStackView/Views/public/BasicButton.qml</file>
+        <file>component/windowStackView/Views/ParameterSetting/JS/ParameterSettingMethod.js</file>
     </qresource>
 </RCC>
